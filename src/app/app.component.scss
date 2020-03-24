@@ -114,3 +114,57 @@ HEADER
   display: grid;
   width: 100%;
 }
+
+.profile-image__container {
+  grid-area: image;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  align-self: center;
+  margin-left: 2rem;
+}
+.profile-image {
+  max-width: 4rem;
+}
+
+.main__header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.25fr;
+  grid-template-rows: 1fr;
+  box-shadow: 0 0 2rem rgba(0, 0, 255, 0.1);
+  height: 4rem;
+  margin: 0;
+  align-items: center;
+  transition: background-color 500ms linear;
+  will-change: background-color;
+  animation: 1s ease-in-out 0ms 1 fadein;
+}
+.main__header-dark {
+  background: #2B244D;
+  color: white;
+}
+
+.toggle-button__container {
+  cursor: pointer;
+  position: relative;
+  margin: 0 0.5rem;
+}
+
+.mode-toggle__input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.mode-toggle__circle {
+  height: 1.30rem;
+  width: 1.3rem;
+  background: #2B244D;
+  
+}

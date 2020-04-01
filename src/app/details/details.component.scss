@@ -175,4 +175,38 @@
   width: 100%;
 }
 
+.day-weather__container {
+  display: flex;
+  flex-flow: column;
+  margin: 2rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
 
+.day-name__text {
+  font-size: 1.5rem;
+  color: #39437a;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.forecast-condition__icon {
+  height: 4rem;
+}
+
+.day-temp__text {
+  font-size: 1.85rem;
+  color: #0c1066;
+  letter-spacing: 0.25rem;
+  margin: 0.75rem 0;
+  text-align: center;
+  padding-left: 0.35rem;
+}
+
+.day-state__text {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: #2B244D;
+}

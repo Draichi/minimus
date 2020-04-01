@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { WeatherService } from '../../services/weather/weather.service';
+import { WeatherService } from '../weather.service';
+// import { WeatherService } from '../../services/weather/weather.service';
 import { Subscription } from 'rxjs';
 
 @Component({
